@@ -110,7 +110,12 @@ footer {
     bottom: 0;
     width: 100%;
 }
-
+footer a:visited{
+    color:#fff;
+}
+footer a:active{
+    color:#fff;
+}
 footer p {
     margin: 0;
 }
