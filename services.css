@@ -20,15 +20,22 @@
     flex-grow: 1;
     align-items: center;
 } 
-input{
-    width: 30%;
-    height: 25px;
-    /* padding-inline: 300px; */
-    background-color: #c4c4c4;
-}
+
 button{
     padding: 4px;
 }
+
+#searchContainer {
+    width: 50%;
+  }
+  
+  #searchInput {
+    width: 80%;
+    height: 25px;
+    padding: 5px;
+    background-color: #c4c4c4;
+    box-sizing: border-box; /* Include padding in the total width */
+  }
 
 .txt{
     width: 100px;
